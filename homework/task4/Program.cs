@@ -1,7 +1,9 @@
 ﻿// Показать последнюю цифру трёхзначного числа
-Console.WriteLine("Введите трехзначное число n");
+Console.WriteLine("Введите трехзначное число num");
 
-int n = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine());
 
-int digit
-Console.WriteLine("Последняя цифра в числе n: " + );
+int m = 0;
+
+
+Console.WriteLine("Последняя цифра в числе num: " + m);
