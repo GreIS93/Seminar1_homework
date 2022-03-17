@@ -25,4 +25,7 @@ switch(day)
     case 7:
         Console.Write("Воскресенье");
         break;
+    default:
+        Console.Write("Дня недели с таким номером не существует");
+        break;
 }
