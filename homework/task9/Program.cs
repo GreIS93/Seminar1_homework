@@ -1,11 +1,14 @@
 ﻿// Найти третью цифру числа или сообщить, что её нет
 Console.WriteLine("Введите число");
 int n = int.Parse(Console.ReadLine());
-int res = 0;
-while(n != 0)
-            {
-                res = n % 10;
-                n /= 10;
-            }
-Console.WriteLine(res);
-Console.ReadKey();
+if (n < 100)
+{
+    Console.WriteLine("В числе нет третьей цифры");
+}
+else 
+{
+    int NumberIndex = 2;
+    string temp = n.ToString();
+    char ch = temp [NumberIndex];
+    Console.WriteLine(ch);
+}
