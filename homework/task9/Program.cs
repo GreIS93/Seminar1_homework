@@ -7,3 +7,5 @@ while(n != 0)
                 res = n % 10;
                 n /= 10;
             }
+Console.WriteLine(res);
+Console.ReadKey();
